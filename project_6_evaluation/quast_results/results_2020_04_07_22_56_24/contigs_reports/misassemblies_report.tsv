@@ -1,0 +1,21 @@
+Assembly	assembling_cov10_assembly	assembling_cov20_assembly	assembling_cov40_assembly	assembling_cov80_assembly	illumina_assembling_contigs	hybrid_assembling_cov10_contigs	hybrid_assembling_cov20_contigs	hybrid_assembling_cov40_contigs
+# misassemblies	18	9	8	6	0	6	6	6
+  # contig misassemblies	18	9	8	6	0	6	6	6
+    # c. relocations	15	7	6	6	0	6	6	6
+    # c. translocations	0	0	0	0	0	0	0	0
+    # c. inversions	3	2	2	0	0	0	0	0
+  # scaffold misassemblies	0	0	0	0	0	0	0	0
+    # s. relocations	0	0	0	0	0	0	0	0
+    # s. translocations	0	0	0	0	0	0	0	0
+    # s. inversions	0	0	0	0	0	0	0	0
+# misassembled contigs	12	5	1	1	0	2	1	1
+Misassembled contigs length	712234	1366070	4642057	4640510	0	1963782	4636416	4641722
+# local misassemblies	7	8	4	3	4	6	5	5
+# scaffold gap ext. mis.	0	0	0	0	0	0	0	0
+# scaffold gap loc. mis.	0	0	0	0	0	0	0	0
+# unaligned mis. contigs	0	0	0	0	0	0	0	0
+# mismatches	1616	342	56	26	47	328	380	386
+# indels	22446	3903	485	240	15	33	36	40
+    # indels (<= 5 bp)	22427	3894	485	240	12	31	33	37
+    # indels (> 5 bp)	19	9	0	0	3	2	3	3
+Indels length	23957	4187	501	244	77	82	179	183

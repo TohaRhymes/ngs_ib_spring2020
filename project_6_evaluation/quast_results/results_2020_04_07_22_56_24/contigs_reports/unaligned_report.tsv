@@ -1,0 +1,6 @@
+Assembly	assembling_cov10_assembly	assembling_cov20_assembly	assembling_cov40_assembly	assembling_cov80_assembly	illumina_assembling_contigs	hybrid_assembling_cov10_contigs	hybrid_assembling_cov20_contigs	hybrid_assembling_cov40_contigs
+# fully unaligned contigs	0	0	0	0	1	1	1	1
+Fully unaligned length	0	0	0	0	542	542	542	542
+# partially unaligned contigs	41	10	1	1	0	0	0	0
+Partially unaligned length	155101	34324	2228	914	0	0	0	0
+# N's	0	0	0	0	0	0	0	0

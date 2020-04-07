@@ -1,0 +1,14 @@
+contig_11
+Extensive misassembly (relocation, inconsistency = 988219) between 920 20940 and 22135 20941
+Extensive misassembly (relocation, inconsistency = 604905) between 22135 20941 and 22136 405350
+contig_18
+Extensive misassembly (relocation, inconsistency = 4274134) between 152797 934 and 152815 155275
+contig_19
+Extensive misassembly (relocation, inconsistency = 105463) between 1 191810 and 191811 192578
+Extensive misassembly (relocation, inconsistency = -106240) between 191811 192578 and 192579 269993
+contig_22
+Extensive misassembly (inversion) between 68020 178821 and 180618 178822
+Extensive misassembly (inversion) between 180618 178822 and 180619 252465
+contig_6
+Extensive misassembly (relocation, inconsistency = 237336) between 246676 1336 and 247444 246677
+Extensive misassembly (relocation, inconsistency = -238112) between 247444 246677 and 281875 247445

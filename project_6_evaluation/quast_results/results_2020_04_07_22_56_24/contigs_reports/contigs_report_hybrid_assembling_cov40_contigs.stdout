@@ -1,0 +1,108 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [gi_48994873_gb_U00096.2_]
+	Total Regions: 1
+	Total Region Length: 4639675
+Analyzing contigs...
+CONTIG: NODE_1_length_4641722_cov_44.938003 (4641722bp)
+Best alignment score: 1048259.3 (LEN: 1048469, IDY: 99.98), Total number of alignments: 33
+			Looking for the best set of alignments (out of 33 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 273179 274373 | 571353 570159 | 1195 1195 | 100.0 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+		Skipping redundant alignment 2099773 2100970 | 571353 570156 | 1198 1198 | 100.0 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+		Skipping redundant alignment 2064180 2065377 | 571356 570159 | 1198 1198 | 99.58 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+		Skipping redundant alignment 687070 688272 | 571357 570155 | 1203 1203 | 100.0 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+		Skipping redundant alignment 3363574 3364776 | 571357 570155 | 1203 1203 | 100.0 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+		Skipping redundant alignment 1394063 1395266 | 570154 571357 | 1204 1204 | 100.0 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+		Skipping redundant alignment 573809 575012 | 571358 570155 | 1204 1204 | 100.0 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+		Skipping redundant alignment 3128165 3129368 | 570156 571359 | 1204 1204 | 100.0 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+		Skipping redundant alignment 3650053 3651257 | 571359 570155 | 1205 1205 | 100.0 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+		Skipping redundant alignment 19796 20563 | 1143700 1144467 | 768 768 | 100.0 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+		Skipping redundant alignment 289858 290625 | 1143700 1144467 | 768 768 | 98.83 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+		Skipping redundant alignment 3581451 3582219 | 1144467 1143699 | 769 769 | 100.0 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+		Skipping redundant alignment 278386 279154 | 1143699 1144467 | 769 769 | 98.83 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+		Skipping redundant alignment 1048999 1049769 | 1144469 1143699 | 771 771 | 98.83 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+		Skipping redundant alignment 1976527 1977294 | 4170631 4171398 | 768 768 | 100.0 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+		Skipping redundant alignment 289858 290625 | 4170631 4171398 | 768 768 | 98.83 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+		Skipping redundant alignment 278387 279154 | 4170631 4171398 | 768 768 | 98.83 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+		Skipping redundant alignment 1049001 1049768 | 4171398 4170631 | 768 768 | 98.83 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+		Skipping redundant alignment 3581450 3582218 | 4171399 4170631 | 769 769 | 100.0 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 4639327.9, number of alignments: 14, unaligned bases: 0
+		This contig is misassembled.
+			Excluding internal overlap of size 442 between Alignment 1 and 2: 1096184 1298721 | 367621 570158 | 202538 202538 --> 1096626 1298721 | 368063 570158 | 202096 202096
+			Real Alignment 1: 728748 1096806 | 1 368062 | 368059 368062 | 99.97 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+			  Overlap between these two alignments (local misassembly). Inconsistency = -181
+			Real Alignment 2: 1096626 1298721 | 368063 570158 | 202096 202096 | 99.99 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+			  Extensive misassembly (relocation, inconsistency = 988219) between these two alignments
+			Real Alignment 3: 2286941 2288135 | 571353 570159 | 1195 1195 | 100.0 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+			  Extensive misassembly (relocation, inconsistency = 415877) between these two alignments
+			Real Alignment 4: 1298718 1871063 | 571354 1143699 | 572346 572346 | 99.99 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+			  Extensive misassembly (relocation, inconsistency = 105463) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 5 and 6: 1976527 1977295 | 1143700 1144468 | 769 769 --> 1976527 1977294 | 1143700 1144467 | 768 768
+			Real Alignment 5: 1976527 1977294 | 1143700 1144467 | 768 768 | 100.0 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+			  Extensive misassembly (relocation, inconsistency = -106240) between these two alignments
+			Excluding internal overlap of size 2585 between Alignment 6 and 7: 1871055 2660514 | 1144468 1933932 | 789460 789465 --> 1871055 2657929 | 1144468 1931347 | 786875 786880
+			Real Alignment 6: 1871055 2657929 | 1144468 1931347 | 786875 786880 | 99.99 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+			  Stretch of 0 mismatches between these two alignments (number of Ns: 0)
+			Excluding internal overlap of size 108 between Alignment 7 and 8: 3706550 4294345 | 2979709 3567504 | 587796 587796 --> 3706658 4294345 | 2979817 3567504 | 587688 587688
+			Real Alignment 7: 2657930 3706489 | 1931348 2979816 | 1048560 1048469 | 99.98 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+			  Gap between these two alignments (local misassembly). Inconsistency = 168
+			Excluding internal overlap of size 488 between Alignment 8 and 9: 4293971 4639675 | 3567017 3912724 | 345705 345708 --> 4294457 4639675 | 3567505 3912724 | 345219 345220
+			Real Alignment 8: 3706658 4294345 | 2979817 3567504 | 587688 587688 | 99.98 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+			  Gap between these two alignments (local misassembly). Inconsistency = 111
+			Real Alignment 9: 4294457 4639675 | 3567505 3912724 | 345219 345220 | 100.0 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+			  Not a misassembly [linear representation of circular genome] between these two alignments
+			Real Alignment 10: 1 257907 | 3912725 4170630 | 257907 257906 | 99.99 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+			  Extensive misassembly (relocation, inconsistency = -238112) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 11 and 12: 19796 20564 | 4170631 4171399 | 769 769 --> 19796 20563 | 4170631 4171398 | 768 768
+			Real Alignment 11: 19796 20563 | 4170631 4171398 | 768 768 | 100.0 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+			  Extensive misassembly (relocation, inconsistency = 237336) between these two alignments
+			Excluding internal overlap of size 174 between Alignment 12 and 13: 339166 356898 | 4252479 4270211 | 17733 17733 --> 339340 356898 | 4252653 4270211 | 17559 17559
+			Real Alignment 12: 257900 339154 | 4171399 4252652 | 81255 81254 | 99.97 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+			  Gap between these two alignments (local misassembly). Inconsistency = 185
+			Excluding internal overlap of size 199 between Alignment 13 and 14: 339340 356898 | 4252653 4270211 | 17559 17559 --> 339340 356699 | 4252653 4270012 | 17360 17360
+			Real Alignment 13: 339340 356699 | 4252653 4270012 | 17360 17360 | 99.95 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+			  Gap between these two alignments (local misassembly). Inconsistency = 200
+			Real Alignment 14: 356900 728608 | 4270013 4641722 | 371709 371710 | 100.0 | gi_48994873_gb_U00096.2_ NODE_1_length_4641722_cov_44.938003
+
+CONTIG: NODE_2_length_542_cov_1.014374 (542bp)
+		This contig is unaligned. (542 bp)
+		Unaligned bases: 542 (number of Ns: 0)
+
+Analyzing coverage...
+Writing SNPs into /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/contigs_reports/minimap_output/hybrid_assembling_cov40_contigs.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/contigs_reports/minimap_output/hybrid_assembling_cov40_contigs.used_snps.gz
+
+Results:
+	Local Misassemblies: 5
+	Misassemblies: 6
+		Relocations: 6
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 1
+	Misassembled Contig Bases: 4641722
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 1 + 0 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 542
+
+Ambiguously Mapped Contigs: 1
+Total Bases in Ambiguously Mapped Contigs: 4641722
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 4638872
+
+	SNPs: 386
+	Insertions: 50
+	Deletions: 133
+

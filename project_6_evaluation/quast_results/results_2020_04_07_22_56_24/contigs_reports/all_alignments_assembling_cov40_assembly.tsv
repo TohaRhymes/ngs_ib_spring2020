@@ -1,0 +1,29 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+2513749	2729490	215707	1	gi_48994873_gb_U00096.2_	contig_1	99.97		True
+local misassembly
+1871055	2512879	858387	216617	gi_48994873_gb_U00096.2_	contig_1	99.99		True
+relocation, inconsistency = -106240
+1976527	1977294	859155	858388	gi_48994873_gb_U00096.2_	contig_1	100.0		True
+relocation, inconsistency = 105463
+1609499	1871063	1120710	859156	gi_48994873_gb_U00096.2_	contig_1	100.0		True
+local misassembly
+1298718	1608146	1431436	1122030	gi_48994873_gb_U00096.2_	contig_1	99.99		True
+relocation, inconsistency = 678794
+2286941	2288135	1431437	1432631	gi_48994873_gb_U00096.2_	contig_1	100.0		True
+relocation, inconsistency = 988219
+1208826	1298721	1522519	1432632	gi_48994873_gb_U00096.2_	contig_1	99.99		True
+inversion
+1207029	1208825	1522520	1524314	gi_48994873_gb_U00096.2_	contig_1	99.89		True
+inversion
+1096626	1207028	1634704	1524315	gi_48994873_gb_U00096.2_	contig_1	99.98		True
+local misassembly
+257900	1096806	2473515	1634705	gi_48994873_gb_U00096.2_	contig_1	99.99		True
+relocation, inconsistency = 237336
+19796	20563	2474283	2473516	gi_48994873_gb_U00096.2_	contig_1	100.0		True
+relocation, inconsistency = -238112
+1	257907	2732172	2474284	gi_48994873_gb_U00096.2_	contig_1	99.99		True
+fake: not a misassembly [linear representation of circular genome]
+4294457	4639675	3077357	2732173	gi_48994873_gb_U00096.2_	contig_1	99.99		True
+local misassembly
+2729491	4294345	4642057	3077358	gi_48994873_gb_U00096.2_	contig_1	99.99		True
+CONTIG	contig_1	4642057	misassembled

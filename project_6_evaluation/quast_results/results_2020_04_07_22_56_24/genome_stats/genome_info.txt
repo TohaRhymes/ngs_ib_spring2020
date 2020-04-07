@@ -1,0 +1,21 @@
+reference chromosomes:
+	gi_48994873_gb_U00096.2_ (total length: 4639675 bp, total length without N's: 4639675 bp, maximal covered length: 4638872 bp)
+
+total genome size: 4639675
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+assembling_cov10_assembl | 88.417    | 1.019       | 67        | -         | -         | -         | -         |
+assembling_cov20_assembl | 99.318    | 1.009       | 11        | -         | -         | -         | -         |
+assembling_cov40_assembl | 99.950    | 1.001       | 3         | -         | -         | -         | -         |
+assembling_cov80_assembl | 99.979    | 1.001       | 2         | -         | -         | -         | -         |
+illumina_assembling_cont | 98.142    | 1.000       | 78        | -         | -         | -         | -         |
+hybrid_assembling_cov10_ | 99.779    | 1.001       | 12        | -         | -         | -         | -         |
+hybrid_assembling_cov20_ | 99.969    | 1.001       | 6         | -         | -         | -         | -         |
+hybrid_assembling_cov40_ | 99.983    | 1.001       | 5         | -         | -         | -         | -         |

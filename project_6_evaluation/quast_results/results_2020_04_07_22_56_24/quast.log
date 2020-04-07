@@ -1,0 +1,259 @@
+/home/toharhymes/quast-5.0.2/quast.py assembling_cov10/assembly.fasta assembling_cov20/assembly.fasta assembling_cov40/assembly.fasta assembling_cov80/assembly.fasta illumina_assembling/contigs.fasta hybrid_assembling_cov10/contigs.fasta hybrid_assembling_cov20/contigs.fasta hybrid_assembling_cov40/contigs.fasta -r data/reference.fasta
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-5.0.0-32-generic-x86_64-with-debian-buster-sid (linux_64)
+  Python version: 3.7.6
+  CPUs number: 8
+
+Started: 2020-04-07 22:56:24
+
+Logging to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/quast.log
+NOTICE: Maximum number of threads is set to 2 (use --threads option to set it manually)
+
+CWD: /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton
+Main parameters: 
+  MODE: default, threads: 2, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/data/reference.fasta ==> reference
+
+Contigs:
+  Pre-processing...
+  1  assembling_cov10/assembly.fasta ==> assembling_cov10_assembly
+  2  assembling_cov20/assembly.fasta ==> assembling_cov20_assembly
+  3  assembling_cov40/assembly.fasta ==> assembling_cov40_assembly
+  4  assembling_cov80/assembly.fasta ==> assembling_cov80_assembly
+  5  illumina_assembling/contigs.fasta ==> illumina_assembling_contigs
+  6  hybrid_assembling_cov10/contigs.fasta ==> hybrid_assembling_cov10_contigs
+  7  hybrid_assembling_cov20/contigs.fasta ==> hybrid_assembling_cov20_contigs
+  8  hybrid_assembling_cov40/contigs.fasta ==> hybrid_assembling_cov40_contigs
+
+2020-04-07 22:56:25
+Running Basic statistics processor...
+  Reference genome:
+    reference.fasta, length = 4639675, num fragments = 1, GC % = 50.79
+  Contig files: 
+    1  assembling_cov10_assembly
+    2  assembling_cov20_assembly
+    3  assembling_cov40_assembly
+    4  assembling_cov80_assembly
+    5  illumina_assembling_contigs
+    6  hybrid_assembling_cov10_contigs
+    7  hybrid_assembling_cov20_contigs
+    8  hybrid_assembling_cov40_contigs
+  Calculating N50 and L50...
+    1  assembling_cov10_assembly, N50 = 60526, L50 = 26, Total length = 4336541, GC % = 50.60, # N's per 100 kbp =  0.00
+    2  assembling_cov20_assembly, N50 = 314698, L50 = 5, Total length = 4683515, GC % = 50.76, # N's per 100 kbp =  0.00
+    3  assembling_cov40_assembly, N50 = 4642057, L50 = 1, Total length = 4642057, GC % = 50.78, # N's per 100 kbp =  0.00
+    4  assembling_cov80_assembly, N50 = 4640510, L50 = 1, Total length = 4642314, GC % = 50.79, # N's per 100 kbp =  0.00
+    5  illumina_assembling_contigs, N50 = 129054, L50 = 14, Total length = 4555330, GC % = 50.74, # N's per 100 kbp =  0.00
+    6  hybrid_assembling_cov10_contigs, N50 = 1034546, L50 = 2, Total length = 4633017, GC % = 50.78, # N's per 100 kbp =  0.00
+    7  hybrid_assembling_cov20_contigs, N50 = 4636416, L50 = 1, Total length = 4641636, GC % = 50.79, # N's per 100 kbp =  0.00
+    8  hybrid_assembling_cov40_contigs, N50 = 4641722, L50 = 1, Total length = 4642264, GC % = 50.79, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/basic_stats/GC_content_plot.pdf
+  Drawing assembling_cov10_assembly GC content plot...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/basic_stats/assembling_cov10_assembly_GC_content_plot.pdf
+  Drawing assembling_cov20_assembly GC content plot...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/basic_stats/assembling_cov20_assembly_GC_content_plot.pdf
+  Drawing assembling_cov40_assembly GC content plot...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/basic_stats/assembling_cov40_assembly_GC_content_plot.pdf
+  Drawing assembling_cov80_assembly GC content plot...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/basic_stats/assembling_cov80_assembly_GC_content_plot.pdf
+  Drawing illumina_assembling_contigs GC content plot...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/basic_stats/illumina_assembling_contigs_GC_content_plot.pdf
+  Drawing hybrid_assembling_cov10_contigs GC content plot...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/basic_stats/hybrid_assembling_cov10_contigs_GC_content_plot.pdf
+  Drawing hybrid_assembling_cov20_contigs GC content plot...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/basic_stats/hybrid_assembling_cov20_contigs_GC_content_plot.pdf
+  Drawing hybrid_assembling_cov40_contigs GC content plot...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/basic_stats/hybrid_assembling_cov40_contigs_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 1x)...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/basic_stats/coverage_histogram.pdf
+  Drawing illumina_assembling_contigs coverage histogram (bin size: 1x)...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/basic_stats/illumina_assembling_contigs_coverage_histogram.pdf
+  Drawing hybrid_assembling_cov10_contigs coverage histogram (bin size: 1x)...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/basic_stats/hybrid_assembling_cov10_contigs_coverage_histogram.pdf
+  Drawing hybrid_assembling_cov20_contigs coverage histogram (bin size: 1x)...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/basic_stats/hybrid_assembling_cov20_contigs_coverage_histogram.pdf
+  Drawing hybrid_assembling_cov40_contigs coverage histogram (bin size: 1x)...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/basic_stats/hybrid_assembling_cov40_contigs_coverage_histogram.pdf
+Done.
+
+2020-04-07 22:56:31
+Running Contig analyzer...
+  1  assembling_cov10_assembly
+  2  assembling_cov20_assembly
+  1  Logging to files /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/contigs_reports/contigs_report_assembling_cov10_assembly.stdout and contigs_report_assembling_cov10_assembly.stderr...
+  2  Logging to files /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/contigs_reports/contigs_report_assembling_cov20_assembly.stdout and contigs_report_assembling_cov20_assembly.stderr...
+  1  Aligning contigs to the reference
+  2  Aligning contigs to the reference
+  2  /home/toharhymes/quast-5.0.2/quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 \
+     --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 \
+     --score-N 2 --cs -t 1 quast_results/results_2020_04_07_22_56_24/quast_corrected_input/reference.fasta \
+     quast_results/results_2020_04_07_22_56_24/quast_corrected_input/assembling_cov20_assembly.fasta \
+     > quast_results/results_2020_04_07_22_56_24/contigs_reports/minimap_output/assembling_cov20_assembly.coords_tmp \
+     2>> quast_results/results_2020_04_07_22_56_24/contigs_reports/contigs_report_assembling_cov20_assembly.stderr
+  1  /home/toharhymes/quast-5.0.2/quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 \
+     --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 \
+     --score-N 2 --cs -t 1 quast_results/results_2020_04_07_22_56_24/quast_corrected_input/reference.fasta \
+     quast_results/results_2020_04_07_22_56_24/quast_corrected_input/assembling_cov10_assembly.fasta \
+     > quast_results/results_2020_04_07_22_56_24/contigs_reports/minimap_output/assembling_cov10_assembly.coords_tmp \
+     2>> quast_results/results_2020_04_07_22_56_24/contigs_reports/contigs_report_assembling_cov10_assembly.stderr
+  1  Analysis is finished.
+
+  3  assembling_cov40_assembly
+  3  Logging to files /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/contigs_reports/contigs_report_assembling_cov40_assembly.stdout and contigs_report_assembling_cov40_assembly.stderr...
+  3  Aligning contigs to the reference
+  3  /home/toharhymes/quast-5.0.2/quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 \
+     --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 \
+     --score-N 2 --cs -t 1 quast_results/results_2020_04_07_22_56_24/quast_corrected_input/reference.fasta \
+     quast_results/results_2020_04_07_22_56_24/quast_corrected_input/assembling_cov40_assembly.fasta \
+     > quast_results/results_2020_04_07_22_56_24/contigs_reports/minimap_output/assembling_cov40_assembly.coords_tmp \
+     2>> quast_results/results_2020_04_07_22_56_24/contigs_reports/contigs_report_assembling_cov40_assembly.stderr
+  2  Analysis is finished.
+
+  4  assembling_cov80_assembly
+  4  Logging to files /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/contigs_reports/contigs_report_assembling_cov80_assembly.stdout and contigs_report_assembling_cov80_assembly.stderr...
+  4  Aligning contigs to the reference
+  4  /home/toharhymes/quast-5.0.2/quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 \
+     --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 \
+     --score-N 2 --cs -t 1 quast_results/results_2020_04_07_22_56_24/quast_corrected_input/reference.fasta \
+     quast_results/results_2020_04_07_22_56_24/quast_corrected_input/assembling_cov80_assembly.fasta \
+     > quast_results/results_2020_04_07_22_56_24/contigs_reports/minimap_output/assembling_cov80_assembly.coords_tmp \
+     2>> quast_results/results_2020_04_07_22_56_24/contigs_reports/contigs_report_assembling_cov80_assembly.stderr
+  3  Analysis is finished.
+
+  5  illumina_assembling_contigs
+  5  Logging to files /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/contigs_reports/contigs_report_illumina_assembling_contigs.stdout and contigs_report_illumina_assembling_contigs.stderr...
+  5  Aligning contigs to the reference
+  5  /home/toharhymes/quast-5.0.2/quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 \
+     --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 \
+     --score-N 2 --cs -t 1 quast_results/results_2020_04_07_22_56_24/quast_corrected_input/reference.fasta \
+     quast_results/results_2020_04_07_22_56_24/quast_corrected_input/illumina_assembling_contigs.fasta \
+     > quast_results/results_2020_04_07_22_56_24/contigs_reports/minimap_output/illumina_assembling_contigs.coords_tmp \
+     2>> quast_results/results_2020_04_07_22_56_24/contigs_reports/contigs_report_illumina_assembling_contigs.stderr
+  4  Analysis is finished.
+
+  6  hybrid_assembling_cov10_contigs
+  6  Logging to files /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/contigs_reports/contigs_report_hybrid_assembling_cov10_contigs.stdout and contigs_report_hybrid_assembling_cov10_contigs.stderr...
+  6  Aligning contigs to the reference
+  6  /home/toharhymes/quast-5.0.2/quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 \
+     --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 \
+     --score-N 2 --cs -t 1 quast_results/results_2020_04_07_22_56_24/quast_corrected_input/reference.fasta \
+     quast_results/results_2020_04_07_22_56_24/quast_corrected_input/hybrid_assembling_cov10_contigs.fasta \
+     > quast_results/results_2020_04_07_22_56_24/contigs_reports/minimap_output/hybrid_assembling_cov10_contigs.coords_tmp \
+     2>> quast_results/results_2020_04_07_22_56_24/contigs_reports/contigs_report_hybrid_assembling_cov10_contigs.stderr
+  5  Analysis is finished.
+
+  7  hybrid_assembling_cov20_contigs
+  7  Logging to files /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/contigs_reports/contigs_report_hybrid_assembling_cov20_contigs.stdout and contigs_report_hybrid_assembling_cov20_contigs.stderr...
+  7  Aligning contigs to the reference
+  7  /home/toharhymes/quast-5.0.2/quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 \
+     --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 \
+     --score-N 2 --cs -t 1 quast_results/results_2020_04_07_22_56_24/quast_corrected_input/reference.fasta \
+     quast_results/results_2020_04_07_22_56_24/quast_corrected_input/hybrid_assembling_cov20_contigs.fasta \
+     > quast_results/results_2020_04_07_22_56_24/contigs_reports/minimap_output/hybrid_assembling_cov20_contigs.coords_tmp \
+     2>> quast_results/results_2020_04_07_22_56_24/contigs_reports/contigs_report_hybrid_assembling_cov20_contigs.stderr
+  6  Analysis is finished.
+
+  8  hybrid_assembling_cov40_contigs
+  8  Logging to files /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/contigs_reports/contigs_report_hybrid_assembling_cov40_contigs.stdout and contigs_report_hybrid_assembling_cov40_contigs.stderr...
+  8  Aligning contigs to the reference
+  8  /home/toharhymes/quast-5.0.2/quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 \
+     --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 \
+     --score-N 2 --cs -t 1 quast_results/results_2020_04_07_22_56_24/quast_corrected_input/reference.fasta \
+     quast_results/results_2020_04_07_22_56_24/quast_corrected_input/hybrid_assembling_cov40_contigs.fasta \
+     > quast_results/results_2020_04_07_22_56_24/contigs_reports/minimap_output/hybrid_assembling_cov40_contigs.coords_tmp \
+     2>> quast_results/results_2020_04_07_22_56_24/contigs_reports/contigs_report_hybrid_assembling_cov40_contigs.stderr
+  7  Analysis is finished.
+
+  8  Analysis is finished.
+
+  Creating total report...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2020-04-07 22:56:39
+Running NA-NGA calculation...
+  1  assembling_cov10_assembly, Largest alignment = 154693, NA50 = 50155, NGA50 = 47920, LA50 = 28, LGA50 = 31
+  2  assembling_cov20_assembly, Largest alignment = 718723, NA50 = 305719, NGA50 = 305719, LA50 = 5, LGA50 = 5
+  3  assembling_cov40_assembly, Largest alignment = 2167286, NA50 = 948761, NGA50 = 948761, LA50 = 2, LGA50 = 2
+  4  assembling_cov80_assembly, Largest alignment = 3025410, NA50 = 3025410, NGA50 = 3025410, LA50 = 1, LGA50 = 1
+  5  illumina_assembling_contigs, Largest alignment = 221546, NA50 = 129054, NGA50 = 129054, LA50 = 14, LGA50 = 14
+  6  hybrid_assembling_cov10_contigs, Largest alignment = 1034546, NA50 = 572346, NGA50 = 572346, LA50 = 3, LGA50 = 3
+  7  hybrid_assembling_cov20_contigs, Largest alignment = 3023576, NA50 = 3023576, NGA50 = 3023576, LA50 = 1, LGA50 = 1
+  8  hybrid_assembling_cov40_contigs, Largest alignment = 3023578, NA50 = 3023578, NGA50 = 3023578, LA50 = 1, LGA50 = 1
+  Drawing cumulative plot...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/aligned_stats/NGAx_plot.pdf
+Done.
+
+2020-04-07 22:56:40
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  1  assembling_cov10_assembly
+  2  assembling_cov20_assembly
+  1  Analysis is finished.
+  2  Analysis is finished.
+  3  assembling_cov40_assembly
+  4  assembling_cov80_assembly
+  3  Analysis is finished.
+  5  illumina_assembling_contigs
+  4  Analysis is finished.
+  6  hybrid_assembling_cov10_contigs
+  5  Analysis is finished.
+  7  hybrid_assembling_cov20_contigs
+  6  Analysis is finished.
+  8  hybrid_assembling_cov40_contigs
+  7  Analysis is finished.
+  8  Analysis is finished.
+  Drawing Genome fraction, % histogram...
+    saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2020-04-07 22:56:45
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2020-04-07 22:56:48
+RESULTS:
+  Text versions of total report are saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/report.html
+  PDF version (tables and plots) is saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/report.pdf
+  Icarus (contig browser) is saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/icarus.html
+  Log is saved to /home/toharhymes/work/ngs_ib_spring2020/project_6_evaluaton/quast_results/results_2020_04_07_22_56_24/quast.log
+
+Finished: 2020-04-07 22:56:48
+Elapsed time: 0:00:23.827100
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
