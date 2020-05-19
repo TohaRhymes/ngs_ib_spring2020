@@ -162,7 +162,7 @@ class Graph:
                                 fasta_out.write(f'>{index_from}-{index_to}___length={length}___cov={coverage}\n'
                                                 f'{dna}\n')
                                 aver_cov += coverage
-                                aver_len += length+k
+                                aver_len += length + k
                                 amount_of_reads += 1
                 dot_out.write('}')
         return aver_len / amount_of_reads, aver_cov / amount_of_reads
@@ -238,7 +238,8 @@ def assemble_and_save(name_of_file, k=55):
     treshold_cov = in_float('Input treshold for coverage')
 
     start2 = time()
-    graph.pruning(treshold_len+k, treshold_cov)
+    graph.pruning(treshold_len + k, treshold_cov)
+    graph.pruning(treshold_len + k, treshold_cov)
     graph.compression(k)
     name_save = f'graphs/{name_of_file}+_pr'
     graph.graph_to_files(name_save, k)
