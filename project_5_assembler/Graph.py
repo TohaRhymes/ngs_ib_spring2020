@@ -1,4 +1,4 @@
-from graphviz import render
+код прогрfrom graphviz import render
 from graphviz import Source
 from Bio import SeqIO
 from time import time
